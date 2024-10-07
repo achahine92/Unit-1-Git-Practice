@@ -87,10 +87,40 @@ mkdir drinks
 rm -r drinks
 
 ### Step 4
+$ git init
+Initialized empty Git repository in /Users/Khaleesi/Desktop/unit1-git-practice/.git/
+$ git add .
+$ git commit -m "First commit for Unit 1 Git Practice"
+[main (root-commit) 26e85ee] First commit for Unit 1 Git Practice
+ 11 files changed, 99 insertions(+)
+ create mode 100644 .DS_Store
+ create mode 100644 menu.txt
+ create mode 100644 my-steps.txt
+ create mode 100644 plants/carrot.txt
+ create mode 100644 plants/pea.txt
+ create mode 100644 proteins/.DS_Store
+ create mode 100644 proteins/meats/crab.txt
+ create mode 100644 proteins/tofu.txt
+ create mode 100644 sweets/donut.txt
+ create mode 100644 veggies/carrot.txt
+ create mode 100644 veggies/pea.txt
 
 
 ### Step 5
-
+$ git branch -M main
+$ git push -u origin main
+Username for 'https://github.com': achahine92
+Password for 'https://achahine92@github.com': 
+Enumerating objects: 10, done.
+Counting objects: 100% (10/10), done.
+Delta compression using up to 4 threads
+Compressing objects: 100% (7/7), done.
+Writing objects: 100% (10/10), 1.71 KiB | 438.00 KiB/s, done.
+Total 10 (delta 1), reused 0 (delta 0), pack-reused 0
+remote: Resolving deltas: 100% (1/1), done.
+To https://github.com/achahine92/Unit-1-Git-Practice.git
+ * [new branch]      main -> main
+branch 'main' set up to track 'origin/main'.
 
 ### Step 6
 
